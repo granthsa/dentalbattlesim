@@ -19,7 +19,7 @@ computer_weapon = ""
 
 import random
 
-#define player "set up player"
+#define player "setupplayer"
 
 def setupplayer():
     player_name = input("What is your name, soldier?: ")
@@ -32,7 +32,7 @@ def setupplayer():
     player_health = starting_health
     return(player_weapon, player_health)
 
-#define computer "set up computer"
+#define computer "setupcomputer"
             
 def setupcomputer():
     computer_weapon = random.choice(weapons)
@@ -44,7 +44,7 @@ def setupcomputer():
 
 
 
-#define "player attack"
+#define "player_attack"
 
 def player_attack():
     if player_weapon == "The Dental Floss":
@@ -85,7 +85,7 @@ def player_attack():
             print("Back to main menu")
     
 
-#define "computer attack
+#define "computer_attack"
 
 def computer_attack():
     if computer_weapon == "The Dental Floss":
@@ -113,7 +113,7 @@ def computer_attack():
 
     
 
-#run program
+#run all the functions in the program
 
 
 setupplayer()
