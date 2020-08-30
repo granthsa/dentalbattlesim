@@ -117,3 +117,6 @@ def computer_attack():
 
 
 setupplayer()
+setupcomputer()
+player_attack()
+computer_attack()
