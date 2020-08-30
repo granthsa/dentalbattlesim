@@ -23,7 +23,7 @@ import random
 
 def setupplayer():
     player_name = input("What is your name, soldier?: ")
-    select_weapon = input("Please select one of the following weapons/nThe Dental Floss/nThe Toothbrush/nThe Electric Toothbrush/nThe Mouth Wash: ")
+    select_weapon = input("Please select one of the following weapons/nThe Dental Flosss - Damage: 8/nThe Toothbrush - Damage: 10/nThe Electric Toothbrush - Damage: 12/nThe Mouth Wash - Damage: 6: ")
     if select_weapon in weapons:
         print("Weapon Selected")
     else:
