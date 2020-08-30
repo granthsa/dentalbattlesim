@@ -39,49 +39,6 @@ def setupcomputer():
     computer_health = starting_health
     return(computer_weapon, computer_health)
 
-    
-    
-
-
-
-#define "player attack"
-
-def player_attack:
-    if player_weapon == "The Dental Floss":
-        player_damage = 8
-        attack = input("Are you ready to attack? :")
-        if attack == "yes":
-            generate_attack()
-        else:
-            print("Back to main menu")
-    if player_weapon == "The Toothbrush":
-        player_damage = 10
-        attack = input("Are you ready to attack? :")
-        if attack == "yes":
-            generate_attack()
-        else:
-            print("Back to main menu")
-    if player_weapon == "The Electric Toothbrush":
-        player_damage = 12
-        attack = input("Are you ready to attack? :")
-        if attack == "yes":
-            generate_attack()
-        else:
-            print("Back to main menu")
-    if player_weapon == "The Mouth Wash":
-        player_damage = 6
-        attack = input("Are you ready to attack? :")
-        if attack == "yes":
-            generate_attack()
-        else:
-            print("Back to main menu")
-    
-
-#define "computer attack
-
-def computer_attack
-    
-
 #run program
 
 
